@@ -1,0 +1,7 @@
+{
+  "title": "用于 Next.js 的 i18next 的启动模板",
+  "description": "一个有用的模板",
+  "btn": {
+    "changeLang": "切换语言"
+  }
+}

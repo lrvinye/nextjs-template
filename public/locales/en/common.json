@@ -1,0 +1,7 @@
+{
+  "title": "Next.js Template for i18next",
+  "description": "A Useful Template",
+  "btn": {
+    "changeLang": "Change Language"
+  }
+}
