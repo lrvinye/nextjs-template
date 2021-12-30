@@ -1,0 +1,51 @@
+/* ./styles/globals.css */
+/**
+ * This injects Tailwind's base styles and any base styles registered by
+ * plugins.
+ */
+@tailwind base;
+
+/**
+    * This injects Tailwind's component classes and any component classes
+    * registered by plugins.
+    */
+@tailwind components;
+
+/**
+    * This injects Tailwind's utility classes and any utility classes registered
+    * by plugins.
+    */
+@tailwind utilities;
+
+/**
+    * Use this directive to control where Tailwind injects the responsive
+    * variations of each utility.
+    *
+    * If omitted, Tailwind will append these classes to the very end of
+    * your stylesheet by default.
+    */
+@tailwind screens;
+
+:root {
+  font-size: 14px;
+}
+
+body {
+  /* 此处的夜间模式的颜色样式不能放到上面的 :root 中，因为需要在 dark class（在html标签上） 的子标签中 */
+  @apply bg-background-light text-foreground-light dark:text-foreground-dark dark:bg-background-dark !important;
+  @apply h-full w-full m-0 p-0 border-0 align-baseline  !important;
+  @apply text-base flex flex-col transition-colors duration-200 ease-in-out;
+}
+
+.page {
+  @apply flex flex-1 w-screen h-screen !important;
+}
+
+.fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+}
