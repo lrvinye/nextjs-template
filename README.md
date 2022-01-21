@@ -2,7 +2,7 @@ There are some [Next.js](https://nextjs.org/) Templates created by [lrvinye](htt
 
 ## Starter
 
-- [Redux toolkit for state management](https://github.com/lrvinye/nextjs-template/tree/redux-toolkit)
+- [Redux toolkit for state management (with redux-persist)](https://github.com/lrvinye/nextjs-template/tree/redux-toolkit)
 - [TailwindCss as style design](https://github.com/lrvinye/nextjs-template/tree/tailwindcss)
 - [i18Next & react-i18next for i18n translation](https://github.com/lrvinye/nextjs-template/tree/i18next)
 - [React-Query state persistent](https://github.com/lrvinye/nextjs-template/tree/react-query)
